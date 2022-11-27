@@ -1,10 +1,23 @@
-import "./index.css";
+import { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { Navbar } from "./components";
 
 function App() {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
-    <div className="App">
-      <h1 className="text-3xl bold underline">Hello world!</h1>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      {/* <>
+        <Modal />
+      </> */}
+      <div>
+        <Routes>
+          <Route />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
