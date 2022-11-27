@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { Navbar } from "./components";
+import { Navbar, About, Modal } from "./components";
 
 function App() {
   const [openModal, setOpenModal] = useState(false);
@@ -9,12 +9,12 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      {/* <>
+      <>
         <Modal />
-      </> */}
+      </>
       <div>
         <Routes>
-          <Route />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </BrowserRouter>
