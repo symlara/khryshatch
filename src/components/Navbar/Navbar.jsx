@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <Link to="/">
-          <h1 className="text-black text-3xl">Khrys Hatch</h1>
+          <h1 className="text-white text-3xl font-semibold">Khrys Hatch</h1>
         </Link>
       </div>
       <ul className="app__navbar-links">

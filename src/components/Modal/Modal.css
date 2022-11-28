@@ -11,14 +11,16 @@ body.active-modal {
   right: 0;
   bottom: 0;
   position: fixed;
-  background-image: url("/Users/aaliyahsymlar/khryshatch/krhys-hatch/src/assets/images/thefall.jpg");
-  background-size: 1000px 1000px;
+  background-image: url("/Users/aaliyahsymlar/khrys/khrys-hatch/src/assets/images/the-fall-single.jpg");
+  /* background-image: url("/Users/aaliyahsymlar/khryshatch/krhys-hatch/src/assets/images/thefall.jpg"); */
+  background-size: 800px 800px;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #000;
 }
 
 .overlay {
-  background: rgba(49, 49, 49, 0.5);
+  background: rgba(49, 49, 49, 0.3);
 }
 
 .modal-content {
@@ -26,7 +28,7 @@ body.active-modal {
   animation-direction: normal;
   animation-name: example;
   position: absolute;
-  top: 40%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #f1f1f1;
@@ -34,6 +36,7 @@ body.active-modal {
   border-radius: 3px;
   background-color: #000;
   color: #fff;
+  padding: 10px;
 }
 
 .modal-content:hover {
